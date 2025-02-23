@@ -4,10 +4,10 @@ const resetBtn = document.querySelector('#reset');
 const pomodoroBtn = document.querySelector('#pomodoro');
 const breakBtn = document.querySelector('#break');
 
-let totalTime;
+let totalTime = 1500;
 let isStarted = false;
 let pomodoroTimerId;
-let currentMode;
+let currentMode = 'pomodoro';
 
 pomodoroBtn.addEventListener('click', function() {
   
